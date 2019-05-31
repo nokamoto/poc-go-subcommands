@@ -36,8 +36,8 @@ root=default value
 nested=default value
 text=foo
 
-$ poc-go-subcommands subcommands describe bar
-root=default value
-nested=default value
+$ poc-go-subcommands -root x subcommands -nested y describe bar
+root=x
+nested=y
 text=bar
 ```
